@@ -1,0 +1,15 @@
+from ez_setup import use_setuptools
+
+use_setuptools()
+
+from setuptools import setup, find_packages
+
+setup(
+	name="hello",
+	version="0.1",
+	descriptino="smy hello library",
+	author="Danny Chun",
+	author_email="jaeyoung.chun@gmail.com",
+	packages=find_packages(),
+	install_requires=[]
+)
