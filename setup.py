@@ -1,11 +1,11 @@
 from setuptools import setup
 
 setup(
-	name="hello",
+	name="hello, world",
 	version="0.1",
 	descriptino="my hello library",
 	author="Danny Chun",
 	author_email="jaeyoung.chun@gmail.com",
 	url="https://github.com/hisplan",
-	packages=['module_a', 'module_a.m1', 'module_a.m2']
+	packages=['MyPackage', 'MyPackage.pkg1', 'MyPackage.pkg2']
 )
