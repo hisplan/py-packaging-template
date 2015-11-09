@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-	name="hello, world",
+	name="hello-world",
 	version="0.1",
 	descriptino="my hello library",
 	author="Danny Chun",
